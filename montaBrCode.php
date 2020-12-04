@@ -20,7 +20,7 @@ function montaBrCode($dadosPix, $tipo, $pagoUmaVez, $cidade, $cep, $valorLivre, 
 
     $payload_format_indicator = '01';
     $point_of_initiation_method = '12';
-    $merchant_account_information = '00' . preencheCampo('BR.GOV.BCB.PIX');
+    $merchant_account_information = '00' . preencheCampo('br.gov.bcb.pix');
     $merchant_category_code = '0000';
     $transaction_currency = '986';
     $country_code = 'BR';
